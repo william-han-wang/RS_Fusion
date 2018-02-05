@@ -23,7 +23,13 @@ We use [Twitter API](https://developer.twitter.com/en/docs) for tweets data coll
 
 ## Flood Detection 
 
-Colorado flood in Sept. 2013 caused huge damage to the city. We visualize the locations of tweets during flood with hashtags such as #floods, #coloradoflood, etc. The locations of those tweets are compared with the true flood regions released by the government after the flood event. There are many tweets (about 10% of all the tweets we collected) located near the flood region, but there are also a large portion of tweets whose locations are noisy and away from the true flooding spots. 
+Colorado flood in Sept. 2013 caused huge damage to the city Boulder. We visualize the locations of tweets during the flood event with hashtags such as #floods, #coloradoflood, etc. On the figure below, the locations of those tweets (on the left) are compared with the true flood regions released by the government after the flood event (on the right). Among all the tweets we collected, about 10% come with GPS enabled locations. There are as many as one hundred tweets or so among the geo-located tweets located near the flood region, but there are also a large portion of tweets whose locations are noisy and away from the true flooding spots. 
 ![The flooding locations with tweets](/flood/figs/tweets_flood.jpg)
+
+We managed to relocate the noisy locations according to tweets closer to historic flood regions, and apply this to maximum entropy model for density estimation. The result shows that this helps correct the locational bias of tweets, and improved the performance of ROC for flood estimation. 
+
+![Relocation and ROC curves under maximum entropy model](/flood/figs/results.jpg)
+
+
 
 
