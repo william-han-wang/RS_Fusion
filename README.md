@@ -15,8 +15,12 @@ With the availability of data set provided by Planet Inc. through their open res
 ### Remote sensing data
 Remote sensing data is accessible through the API of [Planet Labs](https://www.planet.com/docs/reference/data-api/). 
 
-The [Open California DATASET](https://www.planet.com/products/open-california/) consists of high-quality data by the RapidEye satellite, Dove satellite, together with Landsat 8 and Copernicus Sentinel-2 data (most available from 2013 onward)
+The [Open California dataset](https://www.planet.com/products/open-california/) consists of high-quality data collected by the RapidEye satellite, Dove satellite, together with Landsat 8 and Copernicus Sentinel-2 data (most available from 2013 onward) over California.
 
 ### Social media data
-Twitter provides developer platform to filter the tweets in real time. 
-We use [Twitter API](https://developer.twitter.com/en/docs) for tweets collections.
+Twitter provides a developer platform to filter the tweets in real time. 
+We use [Twitter API](https://developer.twitter.com/en/docs) for tweets data collections.
+
+## 
+
+
