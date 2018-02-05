@@ -23,6 +23,6 @@ We use [Twitter API](https://developer.twitter.com/en/docs) for tweets data coll
 
 ## Flood Detection 
 
-![The flooding locations with tweets](/flood/figs/tweets_flood.jpg_)
+![The flooding locations with tweets](/flood/figs/tweets_flood.jpg)
 
 
