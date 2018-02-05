@@ -21,6 +21,8 @@ The [Open California dataset](https://www.planet.com/products/open-california/) 
 Twitter provides a developer platform to filter the tweets in real time. 
 We use [Twitter API](https://developer.twitter.com/en/docs) for tweets data collections.
 
-## 
+## Flood Detection 
+
+![The flooding locations with tweets](/flood/figs/tweets_flood.jpg_)
 
 
